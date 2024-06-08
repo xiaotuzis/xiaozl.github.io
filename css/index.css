@@ -1,0 +1,159 @@
+section{
+    margin-bottom: 40px;
+}
+.welcome{
+    width: 60%;
+    margin: 30px auto;
+}
+h1{
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h1 span{
+    border-bottom: #029df2 5px solid;
+}
+section p{
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
+article{
+    width: 100%;
+    margin: 80px auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+/* 武鸣沃柑描述样式 */
+.welcome .part{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.welcome .part p,h2{
+    padding: 20px;
+}
+.part p{font-size: 14px;}
+.welcome .part div{
+    color: #666666;
+    font-size: 18px;
+}
+.welcome .part h2{
+    font-size: 25px;
+}
+.production{
+    width: 100%;
+    margin: 0 auto;
+}
+.production p{
+    width: 60%;
+    font-size: 14px;
+    color: #666666;
+    margin: 0 auto;
+    text-align: center;
+}
+/* 小沃形象 */
+.imgs{
+    margin: 70px 0;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+	left: 30px;
+}
+.imgs ul{
+    width: 880px;
+    overflow: hidden;
+}
+.imgs li{
+    float: left;
+    background-color: #e5e5e5;
+}
+.imgs li:hover{
+    background-color: #029df2;
+    color: white;
+}
+
+/*  */
+.news{
+    width: 100%;
+}
+.news p{
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
+.news article{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+}
+/* 包装 */
+.wrap2{
+	width: 100%;
+}
+.wrap2 ul{
+	list-style-type:none;
+	margin-left: 15px;
+}
+.wrap2 ul li{
+	display: inline;
+	float: left;
+	margin-left: 2px;
+}
+/* .wrap2 ul li{
+	display: inline;
+	float: left;
+	margin-left: 5px;
+} */
+.wrap2 ul li:hover{
+ box-shadow:5px 5px 5px rgba(2, 157, 242, 0.34),-5px -5px 5px rgba(2, 157, 242, 0.34);
+}
+.wrap2 ul li img{
+	width: 350px;
+	height: 260px;
+}
+article .part2{
+    width: 50%;
+}
+
+.video{
+    width: 100%;
+}
+.video h1+p{
+    width: 60%;
+    margin: 0 auto;
+}
+.video ul{
+    width: 80%;
+    margin: 40px auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    padding:  20px;
+    position: relative;
+}
+.video ul li{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.video ul li div{
+    color: #029df2;
+}
+.video ul li:hover{
+    box-shadow:5px 5px 5px rgba(2, 157, 242, 0.34),-5px -5px 5px rgba(2, 157, 242, 0.34);
+}
+.video .prev2,.next2{
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+}
+.video .prev2{
+    left: 0px
+}
+.video .next2{
+    right: 0px;
+}

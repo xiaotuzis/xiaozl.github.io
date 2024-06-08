@@ -1,0 +1,38 @@
+.wrap3{
+	width: 100%;
+}
+.wrap3 ul{
+	list-style-type:none;
+	margin-left: 15px;
+}
+.wrap3 ul li{
+	display: inline;
+	float: left;
+	margin-left: 2px;
+	margin-bottom: 15px;
+}
+.wrap3 ul li a{
+	text-decoration: none;
+}
+.wrap3 div a{
+	color: 3366FF;
+}
+/* 鼠标悬停链接 */
+.wrap3 div a:hover {
+  color: #FF6600;
+}
+.wrap3 ul li:hover{
+ box-shadow:5px 5px 5px rgba(2, 157, 242, 0.34),-5px -5px 5px rgba(2, 157, 242, 0.34);
+}
+.wrap3 ul li img{
+	width: 350px;
+	height: 260px;
+}
+article .part3{
+    width: 50%;
+}
+/* 价格样式 */
+.wrap3 p{
+	font-size: 20px;
+	font-weight: 600;
+}
